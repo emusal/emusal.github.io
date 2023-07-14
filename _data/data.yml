@@ -4,242 +4,281 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: 김무형
+    tagline: 클라우드 아키텍트, 풀스택 개발자
+    avatar: profile.jpg  
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: emusal@gmail.com
+    phone: 010-9052-1122
+    birth: 1979년 2월 17일
+#    website: blog.webjeda.com #do not add http://
+    linkedin: 무형-김-a780989b
+    github: emusal
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: 외국어
       info:
-        - idiom: English
-          level: Native
+        - idiom: 한국어
+          level: 원어민
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: 영어
+          level: 중
 
     interests:
-      title: Interests
+      title: 취미
       info:
-        - item: Climbing
+        - item: 캠핑
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: 요리
           link:
 
 career-profile:
-    title: Career Profile
+    title: 자기소개
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      안녕하세요 김무형입니다.
+      **새로운 기술을 배우는 것을 좋아합니다.**
+      소프트웨어 개발자부터 하드웨어 경험 그리고, 시스템 엔지니어부터 가상화 기반 자동화 개발 경험까지 매우 넓은 기술셋과 경혐을 갖고 있습니다.
+      **제 전문분야는 다음과 같습니다.**
+      - Specialities: Low-level O/S kernel development(Linux, OKL4, Xen / ARMv5-v7 SMP, CELL)
+      - High-performance library/framework design and implementation
+      - Mission critical/high capacity server design and implementation(TCP/IP, multi-threaded/multi-processed, IPC)
+      - Large/complicated S/W analysis/development/hacking experience
+      - Telecommunication protocol stack design and implementation
+      - Object-oriented design and programming(Design Pattern, CORBA, UML)
+      - Strong C++(STL/boost)/C, Python, assembly and Emacs Lisp.
+
 education:
-    title: Education
+    title: 학력
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: 정보통신공학 학사
+        university: 학점은행제
+        time: 2017
+
+      - degree: 정보통신공학 전문학사
+        university: 부천대학교
+        time: 2000 - 2002
+
 experiences:
-    title: Experiences
+    title: 경력
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: 클라우드 아키텍트, 풀스택 개발자
+        time: 2018 - 현재
+        company: KT 융합기술원
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          **역할**
+           - 리눅스 툴 및 CNCF 컴포넌트 활용 **가상화 인프라(EdgeBox) 및 관리 플랫폼** 설계 및 개발 리드. 인프라부터 Web UI까지 **풀스택 개발 수행**
+           - 유선망 장애 시 5G 무선망 경유하여 인터넷/IPTV 서비스 제공 위한 '인터넷 장애 긴급복구 키트' 개발 참여. **GRE/멀티캐스트 게이트웨이 장치** 개발
+           - OpenShift/OKD 기반 **5G MEC(Multi-access Edge Computig) 시스템** 설계 및 개발 리드
+           - 단말에서 코어까지 네트워크 슬라이스를 신속하게 구성하고 변경하는 **5G End-to-End 오케스트레이터**([<i class="fas fa-link"></i>](https://www.netmanias.com/en/post/oneshot/14704/5g-iot-kt-mec/kt-private-5g-multi-slice-and-multi-mec-for-an-enterprise)) 개발 리드. ETSI NFV 표준 기반 연동 규격 정의(SOL005)
+           - 가상화 기술 관련 **실무자 교육** 및 **임원/VIP 대상 데모시연, 기술 세미나** 수 차례 수행
+           - 5G포럼, SDN/NFV 포럼, 한국통신학회 등에서 주최하는 **외부 대규모 행사 세미나** 수 차례 연사 참여. <KT 5G 통합관제기술>, <KT 5G MEC 기술> 주제
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-            
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-        
+          **성과**
+           - 가상화 인프라 플랫폼(EdgeBox) 기반 **Flexline 서비스 개발 및 상품 출시** (2021-2022, [<i class="fas fa-link"></i>](https://enterprise.kt.com/pd/P_PD_NW_CI_004.do))
+           - '인터넷 장애 긴급복구 키트' 적기 개발 및 현장 배포 통해 **인터넷 장애 복구시간 단축** 기여 (2022)
+           - 5G MEC 시스템 개발 통해 200억 규모의 디지털뉴딜 **국책사업 수주 기여** (2020)
+           - 5G 통합제어체계 기술로 **MWC 2019 최고혁신상 수상** 기여 (2019, [<i class="fas fa-link"></i>](https://www.businesspost.co.kr/BP?command=article_view&num=116134))
+           - 5G E2E 오케스트레이터 **MWC 2018 출품 및 부스 운영** (2018, [<i class="fas fa-link"></i>](https://www.newswire.co.kr/newsRead.php?no=865046))
+           - 5G E2E 오케스트레이터 기반 **5G 통합제어체계 개발 및 상용망 적용** (2018-2020, [<i class="fas fa-link"></i>](https://dealsite.co.kr/articles/22371))
+
+          **포상**
+           - <mark>CEO 표창</mark> - 5G 통합제어체계(5G E2E Orchestrator) 개발 (2018)
+           - <mark>부문장 표창</mark> - 수주기여부분 (2021)
+
+      - role: 솔루션 아키텍트, 네트워크 소프트웨어 개발자
+        time: 2003 - 2017
+        company: 유엔젤
+        details: |
+          **역할**
+          - **클라우드 네이티브 전환 선행 연구/개발**
+            - ETSI NFV 표준 기반 NFV/VNF 관리(VNF-M) 기능 설계 및 개발
+            - 컨테이너 기반 클라우드 네이티브 VNF 아키텍처 설계 및 PoC 개발 수행
+            - SDN/NFV 포럼 기술표준분과 NFV 표준화 위원 활동. ETSI NFV 표준 기반 기존 레거시 네트워크 기능들의 클라우드 네이티브 전환 전략 수립
+          - **3G/4G 이동통신 코어망 솔루션 개발**
+            - 3GPP M2M G/W, DRA 시스템 핵심 기능 개발. 멀티 프로토콜 라우팅 및 메시지 변환기, 정책 기반 라우팅 및 로드밸런싱, 과부하 제어 기능 개발
+            - 3GPP PCEF(Policy and Charging Enhancement Function) 시스템 설계 및 개발
+            - SS7과 SIGTRAN간 메시지 변환 및 라우팅 기능을 수행하는 Signaling Gateway 시스템 설계 및 개발
+          - **공통 프레임워크 개발**
+            - SIGTRAN 스택 성능시험 및 서비스 시나리오 검증 위한 자체 네트워크 시뮬레이터 개발
+            - Active-Active로 동작하는 서버를 위한 HA(High-availability) 공통 프레임워크 구현. 여러 서버간 트래픽 분산 및 fail-over 기능
+            - SLEE(Service Logic Execution Envirionment) 프레임워크 개발
+          - **네트워크 프로토콜 스택 개발**
+            - RFC 표준 [SIGTRAN 프로토콜 스택](https://en.wikipedia.org/wiki/SIGTRAN) 설계 및 구현. M3UA/SUA/M2PA 구현
+            - ITU-T 표준 [SS7 프로토콜 스택](https://en.wikipedia.org/wiki/Signalling_System_No._7) 설계 및 구현. MTP3/SCCP/ISUP 구현
+            - 3GPP Ro(AS~OCS간 과금연동) 인터페이스 설계 및 구현
+          - 국내외 대규모 신규 사업 수주를 위한 **제안서 작성** 및 **BMT/PoC 수행** 
+          - 표준 프로토콜, 프로그래밍, 공통 프레임워크 교육 위한 **강의 자료 작성 및 사내 강의 수행**
+
+          **성과**
+          -  SCP, SMSC 등 주요 솔루션에 자체 개발한 SIGTRAN 프로토콜 스택 탑재. **성능/안정성 확보** 및 **원가 절감** 통해 경쟁사 대비 **가격/기술 경쟁력** 확보 기여
+          -  가격/기술 경쟁력 통해 **국내외 메이저 통신사에 SIGTRAN 프로토콜 스택 공급 및 상용화**
+            - 국내: SKT, KT, LG U+, SK Broadband, SK Telink, KT Powertel 등
+            - 해외: 인도네시아 Telkomsel (1억6천만 가입자, 2021 기준), 몽골 Unitel, Skytel 등
+          -  **핵심 기술 적기 개발** 및 **PoC/BMT 기술평가 1위** 통해 **대규모 사업 수주** 기여
+            - 인도네시아 Telkom향 핵심망 솔루션 공급, **38억원 규모 사업 수주** (2009-2010)
+              - 기존 HP OpenCall 장비를 자체 개발한 Signaling Gateway 장비로 모두 대개체하여 **원가 절감에 크게 기여**
+            - 인도네시아 Telkom향 데이터 과금 솔루션 공급,  **12.5억원 규모 사업 수주** (2011)
+            - 인도네시아 Telkomsel향 M2M(사물지능통신) Service Gateway 공급, **6억원 규모 사업 수주** (2013)
+            - 인도네시아 Telkomsel향 DRA 공급, **80.7억원 규모 사업 수주** (2014)
+
+          **포상**
+          -  올해의 <mark>우수사원</mark> 선정 (2006)
+          -  이달의 <mark>우수사원</mark> 선정 (2016, 2017)
+          -  사내 Bash <mark>프로그래밍 컨테스트 1위</mark> (2005)
+          -  SKT 오픈아이디어+페스티벌 <mark>최우수상</mark> 수상 (2008, [<i class="fas fa-link"></i>](https://www.etnews.com/200812100166))
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: 역량
+#    intro: >
+#      지금까지 수행한 프로젝트
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: 서비스 제공자/수요자 입장에서 프로젝트 전주기 수행 관리
+        tagline: 사업 제안부터 상용 런칭까지 프로젝트 전주기에 대한 제공자와 수요자 입장에서의 경험 보유
+        details: | 
+          - 수요자 입장에서 용역개발 경쟁입찰 제안요청 위한 RFI/RFP 작성 경험 (2018~2021)
+          - 서비스제공자 입장에서 RFI/RFP 수령 후 답변서 작성 경험
+          - BMT/PoC 수행
+          - 상용 구축 경험
+          - DVT/CVT 수검
+          - 서비스 런칭
+          - 안정화/최적화
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#이해력과 공감: 프로젝트 관리자가 서비스 제공자와 수요자의 입장에서 모두 이해할 수 있다면, 각 측의 요구사항과 우려사항을 보다 명확하게 이해할 수 있습니다. 이를 통해 프로젝트에 대한 공감과 이해를 갖게 되어 의사소통과 협업이 원활해질 수 있습니다.
+#리스크 관리: 서비스 제공자와 수요자의 경험을 모두 갖고 있는 프로젝트 관리자는 더욱 효과적으로 리스크를 관리할 수 있습니다. 서비스 제공자의 측면에서 발생할 수 있는 문제나 제약사항을 사전에 파악하고, 수요자의 요구사항에 대한 충족 여부를 보다 효과적으로 평가할 수 있습니다. 이는 프로젝트 진행 중에 예상치 못한 문제를 미리 대비하고 조치를 취할 수 있는 장점을 제공합니다.
+#전략적 의사결정: 서비스 제공자와 수요자의 양쪽 경험을 종합적으로 고려하는 프로젝트 관리자는 전략적인 의사결정을 내릴 때 더 좋은 판단을 할 수 있습니다. 양쪽의 목표와 이해 관계를 고려하면서 프로젝트의 우선순위를 결정할 수 있고, 이를 통해 프로젝트의 성공 확률을 높일 수 있습니다.
+#효율적인 문제 해결: 서비스 제공자와 수요자의 양쪽 경험을 갖고 있는 프로젝트 관리자는 발생하는 문제를 보다 효율적으로 해결할 수 있습니다. 이는 의사소통과 문제 해결 과정에서 생기는 오해나 갈등을 최소화하고, 프로젝트 진행을 원활하게 유지할 수 있는 장점을 제공합니다.
+#신뢰 구축: 서비스 제공자와 수요자의 양쪽 경험을 갖는 프로젝트 관리자는 양측 사이에서 신뢰를 구축하기 쉽습니다. 양측이 자신들의 관점을 이해하고 존중받는다는 느낌을 받으면, 프로젝트 관리자에 대한 신뢰도가 높아지고, 이는 향후 협업과 프로젝트 성공에 긍정적인 영향을 미칠 수 있습니다.
+#서비스 제공자와 서비스 수요자의 양쪽 경험을 모두 갖는 프로젝트 관리자는 프로젝트의 성공 확률을 높이고, 의사소통과 협업을 원활하게 유지하는 데 많은 장점을 가질 수 있습니다.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: 개발 파트 매니징
+        tagline: 인하우스 개발 리드, 용역 개발 프로젝트 관리, Git/Agile 도구 적극 활용
+        details: | 
+          - 가상화 인프라(EdgeBox) 및 관리 플랫폼 개발 프로젝트 전체 리드 (2022~2023)
+          - 5G MEC 플랫폼 개발 프로젝트 전체 리드 및 용역개발 관리 (2021)
+          - 5G End-to-End 오케스트레이터 전체 리드 및 용역개발 관리 (2018~2020)
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: 수직/수평적 폭넓은 개발 경험
+        tagline: ETSI NFV 표준화, CNCF 기반 전체 아키텍처 설계, 12-Factors 기반 애플리케이션 리팩토링
+        details: | 
+          - 가상화 인프라(EdgeBox) 및 관리 플랫폼 개발 프로젝트 전체 리드 (2022~2023)
+
+      - title: 개념검증 위한 프로토타입 개발 및 반복적 빌드업 통한 제품화
+        tagline: ETSI NFV 표준화, CNCF 기반 전체 아키텍처 설계, 12-Factors 기반 애플리케이션 리팩토링
+        details: | 
+          - 가상화 인프라(EdgeBox) 및 관리 플랫폼 개발 프로젝트 전체 리드 (2022~2023)
+
+      - title: 레거시 시스템 클라우드 네이티브 전환 
+        tagline: ETSI NFV 표준화, CNCF 기반 전체 아키텍처 설계, 12-Factors 기반 애플리케이션 리팩토링
+        details: | 
+          - 가상화 인프라(EdgeBox) 및 관리 플랫폼 개발 프로젝트 전체 리드 (2022~2023)
+
+      - title: 서비스 배포 및 설정 구성 자동화 아키텍처 설계/개발
+        tagline: ETSI NFV 표준화, CNCF 기반 전체 아키텍처 설계, 12-Factors 기반 애플리케이션 리팩토링
+        details: | 
+          - 가상화 인프라(EdgeBox) 및 관리 플랫폼 개발 프로젝트 전체 리드 (2022~2023)
+
+      - title: 네트워크 프로토콜 설계/개발
+        tagline: 다양한 프로토콜 구현 경험, OSI 7 계층 깊은 이해, 트러블슈팅 경험
+        details: | 
+          - 가상화 인프라(EdgeBox) 및 관리 플랫폼 개발 프로젝트 전체 리드 (2022~2023)
+
+      - title: 캐리어급 미션 크리티컬 시스템 설계/개발
+        tagline: 다양한 프로토콜 구현 경험, OSI 7 계층 깊은 이해, 트러블슈팅 경험
+        details: | 
+          - 가상화 인프라(EdgeBox) 및 관리 플랫폼 개발 프로젝트 전체 리드 (2022~2023)
+
+      - title: 서버/네트워크 인프라 운영 관리
+        tagline: 다양한 프로토콜 구현 경험, OSI 7 계층 깊은 이해, 트러블슈팅 경험
+        details: | 
+          - 가상화 인프라(EdgeBox) 및 관리 플랫폼 개발 프로젝트 전체 리드 (2022~2023)
+
+      - title: 커뮤니케이션
+#        tagline: 다양한 프로토콜 구현 경험, OSI 7 계층 깊은 이해, 트러블슈팅 경험
+        details: | 
+          - 가상화 인프라(EdgeBox) 및 관리 플랫폼 개발 프로젝트 전체 리드 (2022~2023)
+
+      - title: 업무 자세
+#        tagline: 다양한 프로토콜 구현 경험, OSI 7 계층 깊은 이해, 트러블슈팅 경험
+        details: | 
+          - 고객 지향
+          - 결과 지향
+          - 배움과 호기심
+          - 발명 및 단순화
+
 
 oss:
-    title: OSS Contributions
+    title: 오픈소스 기여
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      직접 오픈소스로 공개한 프로젝트 입니다.
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: ALOGIN
+        link: "https://github.com/emusal/alogin"
+        tagline: 원격 시스템 자동 로그인 툴
+        details: |
+          - 시스템에 접속할 때 **매번 로그인 정보를 기억하고 입력하는 게 귀찮아서 개발**
+          - 2011년에 개발해서 **2013년에 오픈소스로 공개**
+          - 현재 **약 100명 정도가 사용 중**이고 기능이 거의 안정화 되어 **몇 년 동안 업데이트 없이 잘 동작** 중
+          <br>
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#          주요 기능:
+#          - 시스템 로그인 계정과 패스워드 관리. 여러 서버 경유하는 경우 접속 경로 관리
+#          - 서버 접속 시 계정, 패스워드 자동 입력. 여러 서버를 경유하는 경우에도 목적지까지 한 번에 자동으로 로그인
+#          - 다중 서버의 여러 개 터미널을 한번에 열거나, 다중 터미널에 동시 입력하는 기능 제공
+#          - FTP, SFTP가 안 되는 환경에서 파일 송수신 기능
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: SYNC
+        link: "https://github.com/emusal/sync"
+        tagline: 지정한 규칙에 따라 파일을 여러 서버와 동기화하는 툴
+        details: |
+          - 지금은 Ansible 이나 Dropbox와 같은 훌륭한 툴이 많지만 이땐 그런 게 **없어서 직접 만듦**
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: 출판
+#    intro: |
+#      도서출판 및 논문, 특허에 대한 내용입니다.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: <네트워크 장비를 제어하는 제어 시스템 및 방법> 등록특허(10-2465846)
+        link: "http://www.kipris.or.kr/khome/main.jsp"
+        authors: "발명자: 김무형"
+        conference: "등록일: 2022.11.07"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: 리눅스 컨테이너 LXC (도커와 클라우드 플랫폼의 시작)
+        link: "http://www.yes24.com/Product/Goods/56023087"
+        authors: 콘스탄틴 이파노브 저/김무형 역 외 4명
+        conference: 에이콘출판사, 2017
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: 색맹, 색약자를 위한 색상 인식 모바일 어플리케이션
+        link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07116412"
+        authors: 김채린, 염광호, 이종승, 김무형
+        conference: 한국정보과학회 2016년 동계학술대회논문집
+
+certifications:
+      title: 자격증
+      list:
+        - name: 컴퓨터시스템응용기술사
+          start: 2016
+          organization: 과학기술정보통신부
+
+        - name: 정보시스템수석감리원
+          start: 2017
+          organization: 행정안전부
+
+        - name: 정보통신특급감리원
+          start: 2021
+          organization: 과학기술정보통신부
 
 skills:
-    title: Skills &amp; Proficiency
+    title: 경험 기술
+    intro: |
+      현재 업무에 사용중 혹은 사용했던 기술들입니다.
 
     toolset:
       - name: Python & Django
