@@ -1,0 +1,335 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: 김무형
+    tagline: 클라우드 아키텍트, 풀스택 개발자
+    avatar: profile.jpg  
+
+    # Sidebar links
+    email: emusal@gmail.com
+    phone: 010-9052-1122
+    birth: 1979년 2월 17일
+#    website: blog.webjeda.com #do not add http://
+    linkedin: 무형-김-a780989b
+    github: emusal
+#    pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: 외국어
+      info:
+        - idiom: 한국어
+          level: 원어민
+
+        - idiom: 영어
+          level: 중
+
+    interests:
+      title: 취미
+      info:
+        - item: 캠핑
+          link:
+
+        - item: 요리
+          link:
+
+career-profile:
+    title: 자기소개
+    summary: |
+      안녕하세요 김무형입니다.<br>
+      저는 타고난 **배움과 호기심**에 **성실함**을 바탕으로 강한 **실행력**을 가진 20년차 소프트웨어 엔지니어입니다.<br>
+      현재 KT에서 **클라우드 아키텍트**로써 텔코 엣지 클라우드 서비스를 위한 **클라우드 네이티브 인프라/오케스트레이션 기술 개발**을 리드하고 있습니다.<br>
+      20년간 수많은 경험과 도전을 통해 **IT 분야 폭넓은 기술셋 보유**하고 있으며, **다양한 역할 수행**하며 성장하였습니다.
+        - 시스템 레벨의 소프트웨어 개발부터 운용자용 운용관리 소프트웨어 개발 경험
+        - 프로토콜 스택 구현부터 백엔드 API 서버, DB, 프론트엔드 개발까지 풀스택 개발 경험
+        - 시스템 유지보수 엔지니어부터 소프트웨어 개발자, 아키텍트, 프로젝트 리드 역할 수행
+        - 서비스 개발사와 통신사에 근무하며 서비스 제공자와 수요자 입장에서 프로젝트 전주기 수행 경험
+
+      **경력 요약**
+      - SKT 지능망 서비스 QA 및 시스템 엔지니어 (2년)
+      - 이동통신 프로토콜 스택 및 신호망 솔루션 개발 (10년 이상)
+      - NFV(Network Function Virtualization) 마이그레이션 및 MANO 개발 (3년 이상)
+      - 5G 네트워크 슬라이싱 위한 가상화 인프라 통합제어체계 개발  (2년)
+      - 오픈소스 기반 클라우드 네이티브 인프라 및 오케스트레이션 기술 개발 (3년)
+
+      **전문성**
+      - 클라우드 네이티브 인프라 및 오케스트레이션 설계 및 개발
+      - 고성능 라이브러리/프레임워크 설계 및 개발
+      - 미션 크리티컬, 고가용성 서버 설계 및 구현(TCP/IP, multi-threaded/multi-processed, IPC)
+      - 이동통신 프로토콜 스택 설계 및 구현
+      - 객체지형 디자인 및 프로그래밍, 시스템 아키텍처 설계
+      - 강력한 C/C++, Python 개발 능력
+
+
+education:
+    title: 학력
+    info:
+      - degree: 정보통신공학 학사
+        university: 학점은행제
+        time: 2017
+
+      - degree: 정보통신공학 전문학사
+        university: 부천대학교
+        time: 2000 - 2002
+
+experiences:
+    title: 경력
+    info:
+      - role: 클라우드 아키텍트, 풀스택 개발자
+        time: 2018 - 현재
+        company: KT 융합기술원
+        details: |
+          **역할**
+           - 리눅스 툴 및 CNCF 컴포넌트 활용 **<mark>가상화 인프라(EdgeBox) 및 관리 플랫폼</mark>** 설계 및 개발 리드. 인프라부터 Web UI까지 **<mark>풀스택 개발 수행</mark>**
+           - 유선망 장애 시 5G 무선망 경유하여 인터넷/IPTV 서비스 제공 위한 '인터넷 장애 긴급복구 키트' 개발 참여. **GRE/멀티캐스트 게이트웨이 장치** 개발
+           - OpenShift/OKD 기반 **<mark>5G MEC(Multi-access Edge Computig) 시스템</mark>** 설계 및 개발 리드
+           - 단말에서 코어까지 네트워크 슬라이스를 신속하게 구성하고 변경하는 **<mark>5G End-to-End 오케스트레이터</mark>([<i class="fas fa-link"></i>](https://www.netmanias.com/en/post/oneshot/14704/5g-iot-kt-mec/kt-private-5g-multi-slice-and-multi-mec-for-an-enterprise))** 개발 리드. ETSI NFV 표준 기반 연동 규격 정의(SOL005)
+           - 가상화 기술 관련 **실무자 교육** 및 **<mark>임원/VIP 대상 데모시연, 기술 세미나</mark>** 수 차례 수행
+           - 'KT 5G 통합관제기술', 'KT 5G MEC 기술' 주제로 5G포럼, SDN/NFV 포럼, 한국통신학회 등에서 주최하는 **<mark>외부 대규모 행사 세미나</mark>** 수 차례 연사 참여
+
+          **성과**
+           - 가상화 인프라 플랫폼(EdgeBox) 기반 **Flexline 서비스 개발 및 상품 출시** (2021-2022, [<i class="fas fa-link"></i>](https://enterprise.kt.com/pd/P_PD_NW_CI_004.do))
+           - '인터넷 장애 긴급복구 키트' 적기 개발 및 현장 배포 통해 **인터넷 장애 복구시간 단축** 기여 (2022)
+           - 5G MEC 시스템 개발 통해 200억 규모의 디지털뉴딜 **국책사업 수주 기여** (2020)
+           - 5G 통합제어체계 기술로 **MWC 2019 최고혁신상 수상** 기여 (2019, [<i class="fas fa-link"></i>](https://www.businesspost.co.kr/BP?command=article_view&num=116134))
+           - 5G E2E 오케스트레이터 **MWC 2018 출품 및 부스 운영** (2018, [<i class="fas fa-link"></i>](https://www.newswire.co.kr/newsRead.php?no=865046))
+           - 5G E2E 오케스트레이터 기반 **5G 통합제어체계 개발 및 상용망 적용** (2018-2020, [<i class="fas fa-link"></i>](https://dealsite.co.kr/articles/22371))
+
+          **포상**
+           - <mark>CEO 표창</mark> - 5G 통합제어체계(5G E2E Orchestrator) 개발 (2018)
+           - <mark>부문장 표창</mark> - 수주기여부분 (2021)
+
+      - role: 솔루션 아키텍트, 네트워크 소프트웨어 개발자
+        time: 2003 - 2017
+        company: 유엔젤
+        details: |
+          **역할**
+          - **<mark>클라우드 네이티브 전환</mark> 선행 연구/개발 리드**
+            - ETSI NFV 표준 기반 NFV/VNF 관리(VNF-M) 기능 설계 및 개발
+            - 컨테이너 기반 클라우드 네이티브 VNF 아키텍처 설계 및 <mark>PoC 개발</mark> 수행
+            - SDN/NFV 포럼 기술표준분과 NFV 표준화 위원 활동. ETSI NFV 표준 기반 기존 레거시 네트워크 기능들의 클라우드 네이티브 전환 전략 수립
+          - **<mark>네트워크 프로토콜 스택 개발 리드</mark>**
+            - RFC 표준 [SIGTRAN 프로토콜 스택](https://en.wikipedia.org/wiki/SIGTRAN) 설계 및 구현. M3UA/SUA/M2PA 구현
+            - ITU-T 표준 [SS7 프로토콜 스택](https://en.wikipedia.org/wiki/Signalling_System_No._7) 설계 및 구현. MTP3/SCCP/ISUP 구현
+            - 3GPP Ro(AS~OCS간 과금연동) 인터페이스 설계 및 구현
+          - **<mark>3G/4G 이동통신 코어망 솔루션 개발</mark>**
+            - SS7과 SIGTRAN간 메시지 변환 및 라우팅 기능을 수행하는 Signaling Gateway 시스템 설계 및 개발
+            - 3GPP PCEF(Policy and Charging Enhancement Function) 시스템 설계 및 개발
+            - 3GPP M2M G/W, DRA 시스템 핵심 기능 개발. 멀티 프로토콜 라우팅 및 메시지 변환기, 정책 기반 라우팅 및 로드밸런싱, 과부하 제어 기능 개발
+          - **<mark>공통 프레임워크 개발</mark>**
+            - SIGTRAN 스택 성능시험 및 서비스 시나리오 검증 위한 자체 네트워크 시뮬레이터 개발
+            - Active-Active로 동작하는 서버를 위한 HA(High-availability) 공통 프레임워크 구현. 여러 서버간 트래픽 분산 및 fail-over 기능
+            - SLEE(Service Logic Execution Envirionment) 프레임워크 개발
+          - 국내외 대규모 신규 사업 수주 위한 **제안서 작성** 및 **<mark>BMT/PoC 수행</mark>** 
+          - 표준 프로토콜, 프로그래밍, 공통 프레임워크 교육 위한 **<mark>강의 자료 작성 및 사내 강의 수행</mark>**
+
+          **성과**
+          - SCP, SMSC 등 주요 솔루션에 자체 개발한 SIGTRAN 프로토콜 스택 탑재. **성능/안정성 확보** 및 **원가 절감** 통해 경쟁사 대비 **가격/기술 경쟁력** 확보 기여
+          - 가격/기술 경쟁력 통해 **국내외 메이저 통신사에 SIGTRAN 프로토콜 스택 공급 및 상용화**
+            - 국내: SKT, KT, LG U+, SK 브로드밴드, SK 텔링크, KT 파워텔, 세종텔레콤
+            - 해외: 인도네시아, 몽골, 말리이시아, 베트남, 우크라이나 등 각국 주요 통신사
+          - **핵심 기술 적기 개발** 및 **PoC/BMT 기술평가 1위** 통해 **대규모 사업 수주** 기여
+            - 인도네시아 Telkom향 핵심망 솔루션 공급, **38억원 규모 사업 수주** (2009-2010)
+              - 기존 HP OpenCall 장비를 자체개발 SG 장비로 모두 대개체 **원가 절감에 크게 기여**
+            - 인도네시아 Telkom향 데이터 과금 솔루션 공급,  **12.5억원 규모 사업 수주** (2011)
+            - 인도네시아 Telkomsel향 M2M Service Gateway 공급, **6억원 규모 사업 수주** (2013)
+            - 인도네시아 Telkomsel향 DRA 공급, **80.7억원 규모 사업 수주** (2014)
+
+          **포상**
+          -  올해의 <mark>우수사원</mark> 선정 (2006)
+          -  이달의 <mark>우수사원</mark> 선정 (2016, 2017)
+          -  사내 Bash <mark>프로그래밍 컨테스트 1위</mark> (2005)
+          -  SKT 오픈아이디어+페스티벌 <mark>최우수상</mark> 수상 (2008, [<i class="fas fa-link"></i>](https://www.etnews.com/200812100166))
+
+projects:
+    title: 역량
+#    intro: >
+#      지금까지 수행한 프로젝트
+    assignments:
+
+      - title: 개발 파트 매니징
+        tagline: 인하우스 개발 리드, 용역 개발 프로젝트 관리, Git/Agile 도구 적극 활용
+        details: | 
+          - 가상화 인프라(EdgeBox) 및 관리 플랫폼 개발 프로젝트 전체 리드 (2022~2023)
+          - 5G MEC 플랫폼 개발 프로젝트 전체 리드 및 용역개발 관리 (2021)
+          - 5G End-to-End 오케스트레이터 전체 리드 및 용역개발 관리 (2018~2020)
+          - 클라우드 네이티브 전환 선행 연구/개발 리드 (2016-2017)
+          - SIGTRAN 프로토콜 스택 자체 개발 리드(2010~2017)
+          - 애자일 Scrum 개발 프로세스 통해 다수 프로젝트 관리 및 반복적 빌드업 통한 제품화 경험
+          - Confluence, Jira, Gitlab, SVN/CVS 등 협업툴 능숙하게 사용
+          - 서비스 제공자/수요자 입장에서 제안부터 구축, 상용화까지 프로젝트 전주기 수행 관리 경험
+
+      - title: 네트워크 프로토콜 설계/개발
+        tagline: 다양한 계층 프로토콜 구현 경험, OSI 7 계층 깊은 이해, 트러블슈팅 경험
+        time: 2005-2014
+        details: | 
+          - **OSI 2계층(데이터)** 프로토콜 개발 경험
+            - SCTP(RFC 2960), M2PA(RFC 4165) 프로토콜 구현
+          - **OSI 3계층(네트워크)** 프로토콜 개발 경험
+            - M3UA(RFC 3332, 4666) 프로토콜 설계 및 구현
+            - MTP3(ITU-T Q.701~709) 프로토콜 설계 및 구현
+          - **OSI 4계층(전송)** 프로토콜 개발 경험
+            - SUA(RFC 3868) 프로토콜 스택 설계 및 구현
+            - SCCP(ITU-T Q.711~719), ISUP(ITU-T Q.761~769) 설계 및 구현
+          - **OSI 5계층(세션)** 프로토콜 개발 경험
+             - TCAP(ITU-T Q.771~779) 프로토콜 설계 및 구현
+          - **OSI 7계층(어플리케이션)** 프로토콜 개발 경험
+            - 3GPP Ro(AS~OCS간 과금연동) 인터페이스 설계 및 구현
+            - WIN2, MAP, CAMEL v2/3/4 기반 이동통신 선물전화, 단문메시징 등 서비스 개발 경험
+
+      - title: 캐리어급 미션 크리티컬 시스템 개발
+        tagline: 다양한 프로토콜 구현 경험, OSI 7 계층 깊은 이해, 트러블슈팅 경험
+        details: | 
+          - SG 시스템 개발 및 BMT 통해 국내 외 다수 통신사에 공급 상용서비스 중 (2009)
+          - DRA 시스템 개발 및 PoC/BMT 통해 인도네시아 Telkomsel(1억6천만 가입자) 통신사에 공급 (2014)
+          - M2M Service Gateway 시스템 개발 및 BMT 통해 인도네시아 통신사에 공급 (2013)
+          - PCEF 시스템 개발 및 BMT 통해 인도네시아 통신사에 공급(2011)
+          - Active-Active로 동작하는 서버를 위한 HA(High-availability) 공통 프레임워크 개발, 여러 서버간 트래픽 분산 및 무중단 fail-over 기능
+
+      - title: 레거시 시스템 클라우드 네이티브 전환 
+        tagline: ETSI NFV 표준화, CNCF 기반 전체 아키텍처 설계, 12-Factors 기반 애플리케이션 리팩토링
+        details: | 
+          - SDN/NFV 포럼 기술표준분과 NFV 표준화 위원 활동 (2017)
+          - 기존 레거시 네트워크 기능들의 클라우드 네이티브 전환 전략 수립 (CNCF 활용)
+          - 컨테이너 기반 클라우드 네이티브 VNF 아키텍처 설계 및 PoC 개발 수행 (12-Factors 활용)
+          - ETSI NFV 표준 기반 NFV/VNF 관리(VNF-M) 기능 설계 및 개발 (2017)
+          - ETSI NFV 표준 기반 NFV-O 계위 5G End-to-End 오케스트레이터 시스템 개발 (2018-2020)
+          - ETSI NFV 표준 SOL005 인터페이스 구현 및 상용시스템(삼성, 노키아) 연동시험 수행 (2018)
+          - 유선망 엣지 클라우드 서비스 위한 가상화 인프라 설계 및 자체 개발 (2022-2023)
+          - 무선망 엣지 클라우드 서비스 위한 OpenShift/OKD 기반 5G MEC(Multi-access Edge Computig) 시스템 설계 및 개발 (2021)
+
+      - title: 클라우드 네이티브 인프라 및 오케스트레이션 기술 개발
+        tagline: IaaS, SaaS, NaaS 클라우드 서비스 생명주기 관리 및 통합제어 기술 설계 및 개발 경험
+        details: | 
+          - 유선망 엣지 클라우드 서비스 위한 가상화 인프라 관리 시스템 개발 (2022-2023)
+          - 무선망 엣지 클라우드 서비스 위한 5G MEC 관리 시스템 개발 (2021)
+          - 네트워크 슬라이스 관리 5G End-to-End 오케스트레이터 개발 (2018-2020)
+          - Helm 기반 서비스 패키징 및 배포/삭제 기능 개발
+          - Ansibile 기반 SaaS/IaaS 배포/삭제 자동화 기능 개발 
+          - Prometheus, Grafana 기반 서비스 매트릭 수집 및 모니터링 기능 개발
+          - EFK 스택 기반 로그 수집 및 모니터링 기능 개발
+          - Lifecycle Management(서비스 생성/삭제, 성능/알람수집) REST API 연동규격 정의 및 구현
+
+      - title: 서버/네트워크 인프라 운영 관리
+        tagline: 다양한 프로토콜 구현 경험, OSI 7 계층 깊은 이해, 트러블슈팅 경험
+        details: | 
+          - (유닉스) HPUX, Solaris 기반 시스템 프로그래밍 및 운용 관리 경험
+          - (리눅스) CentOS, Ubuntu 기반 시스템 프로그래밍 및 운용 관리 경험
+          - (서버) HPE, Dell, Supermicro 등 COTS 서버 구성 및 운용 경험
+          - (방화벽) Fortinet FortiGate, Juniper SRX, Cisco ASA, AXGATE, Mikrotik 제조사 IPSec VPN 구성 및 방화벽 정책 구성 및 운용 경험
+          - (스위치) 다산, Cisco, Mikrotik 등 L2/L3 스위치 구성 및 운용 경험
+          - (가상화) KVM 기반 가상머신 및 가상네트워크 생성 관리 
+          - (이중화) 인프라 무중단 운용을 위한 서버, 디스크, NIC, 스위치 이중화 구성 경험
+          - (기타) Tandem, FT-1800 등 Fault-Tollerent 서버 운용 경험
+
+      - title: 커뮤니케이션
+        tagline: 내부 교육 강의 및 임원/VIP 대상 데모시연, 외부 행사에서 기술 세미나 발표 경험
+        details: | 
+          - 가상화 기술 관련 내부 교육 및 임원/VIP 대상 데모시연, 기술 세미나 수 차례 수행
+          - 5G포럼, SDN/NFV 포럼, 한국통신학회 주최 외부 세미나에서 <KT 5G 통합관제기술>, <KT 5G MEC 기술> 주제 발표 진행
+          - 표준 프로토콜, 프로그래밍, 공통 프레임워크 관련 강의 자료 작성 및 사내 강의
+          - 한이음 ICT 멘토링 프로그램에서 멘토 활동 (2017~)
+
+oss:
+    title: 개인 프로젝트
+    intro: >
+      직접 오픈소스로 공개한 프로젝트 입니다.
+    contributions:
+      - title: ALOGIN
+        link: "https://github.com/emusal/alogin"
+        tagline: 원격 시스템 자동 로그인 툴
+        details: |
+          - 시스템에 접속할 때 **매번 로그인 정보를 기억하고 입력하는 게 귀찮아서 개발**
+          - 2011년에 개발해서 **2013년에 오픈소스로 공개**
+          - 현재 **약 100명 정도가 사용 중**이고 기능이 거의 안정화 되어 **몇 년 동안 업데이트 없이 잘 동작** 중
+          <br>
+
+#          주요 기능:
+#          - 시스템 로그인 계정과 패스워드 관리. 여러 서버 경유하는 경우 접속 경로 관리
+#          - 서버 접속 시 계정, 패스워드 자동 입력. 여러 서버를 경유하는 경우에도 목적지까지 한 번에 자동으로 로그인
+#          - 다중 서버의 여러 개 터미널을 한번에 열거나, 다중 터미널에 동시 입력하는 기능 제공
+#          - FTP, SFTP가 안 되는 환경에서 파일 송수신 기능
+
+      - title: SYNC
+        link: "https://github.com/emusal/sync"
+        tagline: 지정한 규칙에 따라 파일을 여러 서버와 동기화하는 툴
+        details: |
+          - 지금은 Ansible 이나 Dropbox와 같은 훌륭한 툴이 많지만 이땐 그런 게 **없어서 직접 만듦**
+
+publications:
+    title: 출판
+#    intro: |
+#      도서출판 및 논문, 특허에 대한 내용입니다.
+    papers:
+      - title: <네트워크 장비를 제어하는 제어 시스템 및 방법> 등록특허(10-2465846)
+        link: "http://www.kipris.or.kr/khome/main.jsp"
+        authors: "발명자: 김무형"
+        conference: "등록일: 2022.11.07"
+
+      - title: 리눅스 컨테이너 LXC (도커와 클라우드 플랫폼의 시작)
+        link: "http://www.yes24.com/Product/Goods/56023087"
+        authors: 콘스탄틴 이파노브 저/김무형 역 외 4명
+        conference: 에이콘출판사, 2017
+
+      - title: 색맹, 색약자를 위한 색상 인식 모바일 어플리케이션
+        link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07116412"
+        authors: 김채린, 염광호, 이종승, 김무형
+        conference: 한국정보과학회 2016년 동계학술대회논문집
+
+certifications:
+      title: 자격증
+      list:
+        - name: 컴퓨터시스템응용기술사
+          start: 2016
+          organization: 과학기술정보통신부
+
+        - name: 정보시스템수석감리원
+          start: 2017
+          organization: 행정안전부
+
+        - name: 정보통신특급감리원
+          start: 2021
+          organization: 과학기술정보통신부
+
+skills:
+    title: 경험 기술
+    toolset:
+      - name: C/C++, Python
+        level: 90%
+
+      - name: Python & Flask
+        level: 70%
+
+      - name: React & Javascript
+        level: 50%
+
+      - name: Bash & Expect/Tcl, Lua
+        level: 90%
+
+      - name: Ansible
+        level: 80%
+
+      - name: MySQL & MonogoDB
+        level: 60%
+
+      - name: Router & Firewall 
+        level: 80%
+
+      - name: Network 트러블슈팅
+        level: 90%
+
+      - name: Server 운용 관리
+        level: 70%
+
+      - name: Docker & KVM/QEUM
+        level: 80%
+
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

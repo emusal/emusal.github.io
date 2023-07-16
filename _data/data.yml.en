@@ -1,0 +1,331 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Moohyoung KIM
+    tagline: Senior Cloud Architect<br>Network Software Developer
+    avatar: profile.jpg  
+
+    # Sidebar links
+    email: emusal@gmail.com
+    phone: 010-9052-1122
+    birth: 17 Febrary 1979
+    linkedin: 무형-김-a780989b
+    github: emusal
+#    pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Korean
+          level: Native
+
+        - idiom: English
+          level: Intermediate
+
+    interests:
+      title: Interests
+      info:
+        - item: Camping
+          link:
+
+        - item: Cocking
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Hi, my name is Moohyoung Kim.<br>
+      I am an enthusiastic ICT Professional Engineer with **incredible drive** driven by a natural inclination for **continuous learning**, **genuine curiosity**, and **sincerity**. <br>
+      In my current role as a Senior Cloud Architect at KT, I am leading the development of cloud-native infrastructure/orchestration technology for the Telco Edge Cloud services.<br>
+      Throughout my career, I have had the opportunity to take on **diverse roles within the IT domain**, which has equipped me with **a wide range of skills and knowledge**. With each role, I have experienced significant personal and professional growth, constantly expanding my expertise in the field.
+        - Experience in system-level software development and operations software development for operators
+        - Skillset includes full-stack development, ranging from system programming to backend API server, front-end development, and database management.
+        - Worked as various roles, including system maintenance engineer, software developer, architect, and project leader.
+        - Ability to carry out the entire project cycle, considering the perspectives of both service providers and consumers throught experience worked on solution vendor and telecommunication company
+
+      **Specialities**
+      - **Cloud-native infrastructure/orchestrator** architecting and developement
+      - **High-performance library/framework** desing and development
+      - **Mission-critical, high-availability server** design and implementation (TCP/IP, multi-threaded/multi-processed, IPC)
+      - **Telecommunication protocol stack** design and implementation
+      - **Object-oriented desing and programming**, architecting system and solutions
+      - **Strong C/C++**, Python 
+
+#      **Summary**
+#      - QA and system enginner for SKT Intelligent Network service, such as Pre-paied and Free-phone (2 years)
+#      - Development of telecommunication protocol stack and signaling solution (10+ years)
+#      - NFV (Network Function Virtualization) migration and MANO development (3+ years)
+#      - Development of virtualization infrastructure integrated control system for 5G network slicing (2 years)
+#      - Development of open source-based cloud-native infrastructure and orchestration technology (3 years)
+
+#      I am an ICT Professional Engineer with **incredible drive** based on innate **learning, curiosity** and **sincrity**.<br>
+#      Currently, as a Senior Cloud Architect at KT, 
+#      I am leading the development of cloud-native infrastructure/orchestration technology for telco edge cloud services.<br>
+#      I have a **very broad set of skills** in the IT domain and have grown while **performing various roles**.
+
+
+education:
+    title: Education
+    info:
+      - degree: BS in Information and Communication Engineering
+        university: The Korean Academic Credit Bank 
+        time: 2017
+
+      - degree: AS in Information and Communication Engineering
+        university: University of Bucheon
+        time: 2000 - 2002
+
+experiences:
+    title: Experiences
+    info:
+      - role: Senior Cloud Architect, Full-stack Developer
+        time: 2018 - Present
+        company: KT Coperation
+        details: |
+          **Responsibilites**
+           - Participated in the development of ‘Emergency Recovery Kit for Internet Failures’ to provide Internet/IPTV service via 5G wireless network in case of wired network failure. Responsible for developing GRE/multicast gateway device.
+           - Led design and development OpenShift/OKD-based 5G Multi-access Edge Computig (MEC) system
+           - Led development of 5G End-to-End Orchestrator that rapidly configures and changes network slices from the user equipment to the core. Implemented ETSI NFV standard-based interworking specification (SOL005)
+           - Training for practitioners on virtualization technology, demonstrations and technical seminars for executives/VIPs.
+           - Participated in external large-scale event seminars hosted by 5G Forum, SDN/NFV Forum, Korea Telecommunications Society, etc. as a speaker on the themes of ‘KT 5G Integrated Control Technology’ and ‘KT 5G MEC Technology’
+
+          **Key archievements**
+           - Virtualization infrastructure platform (EdgeBox) based Flexline&trade; service development and product launch (2021-2022)
+           - Contributing to shortening recovery time for Internet failures through timely deployment of ‘Internet Failure Emergency Recovery Kit’ (2022)
+           - Contributed to winning 'Digital New Deal' goverment-funded project through the development of the 5G MEC system (2020)
+           - Contributed to winning 'MWC 2019 Best Innovation Award' via 5G integrated control system technology (2019)
+           - 5G E2E Orchestrator, MWC 2018 exhibition and booth operation (2018)
+           - Commercialized and developed '5G integrated control system' based on 5G E2E Orchestrator (2018-2020)
+
+          **Awards**
+           - <mark>CEO Commendation</mark> - 5G Integrated Control System(5G E2E Orchestrator) (2018)
+           - <mark>Division Head Commendation</mark> - Order Contribution Part (2021)
+
+      - role: Solutions Architect, Network Software Developer
+        time: 2003 - 2017
+        company: UANGEL
+        details: |
+          **Responsibilites**
+          - Led research/development for **<mark>Cloud-natvie migration</mark>**
+            - Designed and deveoped NFV/VNF management (VNF-M) function based on the ETSI NFV standard
+            - Designed container-based cloud-native VNF architecture and developed prototype for PoC
+            - Served as a member of the NFV Standardization Committee in the SDN/NFV Forum
+            - Established a cloud-native migration strategy for existing legacy network functions, aligning with the ETSI NFV standard
+          - **<mark>Led development of telecommunication protocol stack</mark>**
+            - Designed and implemented RFC standard SIGTRAN protocol stack like M3UA/SUA/M2PA
+            - Designed and implemented ITU-T standard SS7 protocol stack such as MTP3/SCCP/ISUP
+            - Designed and implemented 3GPP Ro (Charging interlock between AS and OCS) interface
+          - **<mark>3G/4G telco core network solution development</mark>**
+            - Designed and developed Signaling Gateway system that performs message mediation and routing between SS7 and SIGTRAN
+            - Designed and developed 3GPP PCEF (Policy and Charging Enhancement Function) system 
+            - Implemented core features, such as multi-protocol routing, message converting, policy-based routing, load balancing and overload control, used in 3GPP M2M G/W and DRA system
+          - **<mark>Common framework development</mark>**
+            - Developed own network simulator for performance testing and scenario testing of SIGTRAN protocol
+            - Implemented HA (High-availability) framework for active-active servers. It performs traffic distribution between multiple servers and fail-over scenario
+            - Developed SLEE (Service Logic Execution Environment) framework like a Javascript engine
+          - Responsible for writing proposals and participating in BMT/PoC for competitive bidding with global companies.
+          - Responsible for creating lecture materials and delivering lectures on standard protocols, programming, and common frameworks.
+
+          **Key archievements**
+          - Contributed to **enhancing price and technological competitiveness** over competitors through **outstanding performance, stability, and cost reduction**. Achieved this by integrating our in-house developed SIGTRAN protocol stack into key solutions such as SCP and SMSC.
+          - Successfully commercialized and supplied our SIGTRAN protocol stack to major telecommunications companies both domestically and internationally, thereby enhancing our price and technological competitiveness.
+            - Domestic: SKT, KT, LG U+, SK Broadband, SK Telink, KT Powertel, Sejong Telecom
+            - Overseas: Major telecommunications companies in Indonesia, Mongolia, Malaysia, Vietnam, Ukraine, etc.
+          - Contributed to successfully winning large-scale projects by **delivering core technologies within deadlines** and **achieving top rankings** in Proof of Concept (PoC) and Benchmark Testing (BMT) evaluations
+            - Supplied core network solutions to Telkom in Indonesia, winning a project valued KRW 3.8 billion (2009-2010)
+              - Replaced all existing HP OpenCall equipment with our self-developed SG equipment, resulting in significant cost reduction and making a substantial contribution.
+            - Supplied data billing solution to Telkom in Indonesia, winning a project valued KRW 1.25 billion (2011)
+            - Supplied M2M Service Gateway to Telkomsel in Indonesia, winning a project valued KRW 600 million (2013)
+            - Supplied DRA to Telkomsel in Indonesia, winning a project valued worth KRW 8.07 billion (2014)
+
+          **Awards**
+          - Awarded as <mark>Excellent Employee of the Year</mark> (2006).
+          - Twice awarded as <mark>Excellent Employee of the Month</mark> (2016, 2017).
+          - Achieved 1st place in the internal bash programming contest (2005).
+          - Won the Grand Prize at the Open Idea+Festival hosted by SKT (2008, [<i class="fas fa-link"></i>](https://www.etnews.com/200812100166))
+
+projects:
+    title: Competencies
+#    intro: >
+#      지금까지 수행한 프로젝트
+    assignments:
+
+      - title: Managing development team
+        tagline: Leading in-house development, Managing outsourced development, Proficiently use Git/Agile tools
+        details: | 
+          - Led the Virtualization Infrastructure (EdgeBox) and Management platform development project (2022-2023)
+          - Led the 5G MEC platform development project and managed outsourced development (2021)
+          - Led the 5G End-to-End orchestrator development project and managed outsourced development (2018-2020)
+          - Led research and development for cloud-native migration (2016-2017)
+          - Led the in-house development project of SIGTRAN protocol stack (2010-2017)
+          - Managed and productized multiple project management through Agile Scrum methodologies.
+          - Proficiently utilized collaboration tools such as Confluence, Jira, Gitlab, and SVN/CVS.
+          - Experiences managing the entire project cycle from proposal to construction and commercialization.
+
+      - title: Designing and developing network protocol stack
+        tagline: Experiences implementing various protocols and trouble shooting, Deep understanding of OSI 7 layers
+        time: 2005-2014
+        details: | 
+          - **OSI Layer 2(Data)** Protocols
+            - Implemented SCTP(RFC 2960), M2PA(RFC 4165) protocol
+          - **OSI Layer 3(Network)** Protocols
+            - Designed and implemented M3UA(RFC 3332, 4666) protocol
+            - Designed and implemented MTP3(ITU-T Q.701~709) protocol
+          - **OSI Layer 4(Transport)** Protocols
+            - Designed and implemened SUA(RFC 3868) protocol
+            - Designed and implemented SCCP(ITU-T Q.711~719), ISUP(ITU-T Q.761~769)
+          - **OSI Layer 5(Session)** Protocols
+             - Designed and implemented TCAP(ITU-T Q.771~779) protocol
+          - **OSI Layer 7(Application)** Protocols
+            - Designed and implemented 3GPP Ro interface to delivery charging event between AS and OCS.
+            - Implemented service logics based on WIN2/MAP/CAMEL for 2G/3G VAS like pre-paid and free-calling service.
+
+      - title: Developing carrier-grade mission critcal system
+        tagline: Various telco solutions that have passed fair and strict testing
+        details: | 
+          - Developed the SG system and successfully provided commercial services to numerous domestic and overseas telecommunications companies through BMT (2009)
+          - Developed the DRA system and supplied it to Telkomsel, serving their 160 million subscribers in Indonesia, following strict PoC/BMT processes (2014)
+          - Developed the M2M Service Gateway system and supplied it to telecommunication company in Indonesia through BMT (2013)
+          - Completed the development of the PCEF system and supplied it to telecommunication company in Indonesia through BMT (2011)
+          - Implemented a highly available (HA) framework capable of traffic distribution among multiple servers and fail-over scenarios.
+
+      - title: Cloud-native migration
+        tagline: ETSI NFV standardization, CNCF-based overall architecture design, 12-Factors-based application refactoring
+        details: | 
+          - Served as a member of the NFV Standardization Committee in the SDN/NFV Forum (2017)
+          - Established a cloud-native migration strategy for existing legacy network functions, aligning with the ETSI NFV standard
+          - Designed container-based cloud-native VNF architecture and developed prototype for PoC
+          - Designed and deveoped NFV/VNF management (VNF-M) function based on the ETSI NFV standard (2017)
+          - Developed the 5G End-to-End Orchestrator based on ETSI NFV standard (2018-2020)
+          - Implemented the ETSI NFV standard SOL005 interface and conducted successful interworking tests with commercial systems from Samsung and Nokia (2018)
+          - Developed the 5G MEC platform using OpenShift and OKD (2022-2023)
+
+      - title: Architecting cloud-native infrastructre and orchestration
+        tagline: Experiences implementing the life cycle management of cloud service and the integrated control system
+        details: | 
+          - Developed a management system for virtualization infrastructure in support of wired network edge cloud services (2022-2023).
+          - Developed a management system for 5G MEC (Multi-access Edge Computing) in support of wireless network edge cloud services (2021).
+          - Led the development of the 5G End-to-End Orchestrator for network slice management (2018-2020).
+          - Implemented Helm-based service packaging and deployment
+          - Developed an Ansible-based automation tools for SaaS/IaaS deployment and deletion.
+          - Implemented the service metrics collection and monitoring via Grafana and Prometheus.
+          - Developed a log collection and monitoring function based on the EFK (Elasticsearch, Fluentd, Kibana) stack.
+          - Defined and implemented REST API for Lifecycle Management, covering service instantiation/termination and performance/alarm collection.
+
+      - title: Server/Network infrastructure operation management
+        tagline: Experiences operation management of various type/vendor's server and network equipments
+        details: | 
+          - Proficient in system programming and operation management on Unix-based platforms, including HPUX and Solaris.
+          - Skilled in system programming and operation management on Linux-based platforms, including CentOS and Ubuntu.
+          - Experienced in configuring and operating COTS (Commercial Off-The-Shelf) servers such as HPE, Dell, Supermicro, and more.
+          - Proficient in IPSec VPN configuration and firewall policy setup and operation, utilizing Fortinet FortiGate, Juniper SRX, Cisco ASA, AXGATE, and Mikrotik devices.
+          - Skilled in configuring and operating L2/L3 switches from manufacturers such as Dasan, Cisco, and Mikrotik.
+          - Experienced in creating and managing KVM-based virtual machines and virtual networks.
+          - Proficient in configuring server, disk, NIC, and switch redundancy for uninterrupted infrastructure operation.
+          - Experienced in operating fault-tolerant servers like Tandem and FT-1800.
+
+      - title: Communication
+        tagline: Creating lecture materials and delivering lectures, demonstrations for executives/VIPs, technical seminar presentations at external events
+        details: | 
+          - Provided hands-on demonstrations and technical seminars for executives and VIPs
+          - Participated as a speaker in large-scale external event seminars hosted by 5G Forum, SDN/NFV Forum, Korea Telecommunications Society, etc., focusing on the topics of 'KT 5G Integrated Control Technology' and 'KT 5G MEC Technology'.
+          - Developed lecture materials and conducted informative sessions on standard protocols, programming, and common frameworks.
+          - Served as a mentor in Hanium ICT Mentoring Program (2017~)
+
+oss:
+    title: Projects
+    intro: >
+      It is an open source project that I personally manage
+    contributions:
+      - title: ALOGIN
+        link: "https://github.com/emusal/alogin"
+        tagline: Remote System Automatic Login Tool
+        details: |
+          - Developed in 2011 to address the **inconvenience of having to remember and enter login information repeatedly** when accessing systems.
+          - **Released as an open-source tool in 2013**
+          - Currently being **used by approximately 100 users**.
+          - The tool's functionality is stable, and it has been **operating smoothly without requiring updates for several years**.
+          <br>
+
+      - title: SYNC
+        link: "https://github.com/emusal/sync"
+        tagline: Synchronizing files with multiple servers based on specified rules
+        details: |
+          - Created this tool because **there were no similar options available**, although nowadays there are excellent alternatives like Ansible or Dropbox.
+
+publications:
+    title: Publications
+    papers:
+      - title: Registered patent(10-2465846), <em>SYSTEM AND METHOD FOR CONTROLLING NETWORK DEVICE</em>
+        link: "http://www.kipris.or.kr/khome/main.jsp"
+        authors: "Moohyoung Kim"
+        conference: "Registration Date: 2022.11.07"
+
+      - title: Published korean translation book, <em>Containerization with LXC - Get acquainted with the world of LXC</em>
+        link: "http://www.yes24.com/Product/Goods/56023087"
+        authors: by Konstantin Ivanov, Translated by Moohyoung Kim and 4 others
+        conference: O’Reilly, 2017
+
+      - title: Published paper, <em>Color recognizing mobile application for color-blindness or color-weakness</em>
+        link: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07116412"
+        authors: Moohyoung Kim and 3 others
+        conference: Korean Information Science Society 2016
+
+certifications:
+      title: Certifications
+      list:
+        - name: Professional Engineer in Computer System Application
+          start: 2016
+          organization: South Korea's Ministry of Science and ICT
+
+        - name: Principle Auditor in Information Systems
+          start: 2017
+          organization: South Korea's Ministry of Public Administration and Security
+
+        - name: Principle Auditor in Information & Communication
+          start: 2021
+          organization: South Korea's Ministry of Science and ICT
+
+skills:
+    title: Skills
+    toolset:
+      - name: C/C++, Python
+        level: 90%
+
+      - name: Python & Flask
+        level: 70%
+
+      - name: React & Javascript
+        level: 50%
+
+      - name: Bash & Expect/Tcl, Lua
+        level: 90%
+
+      - name: Ansible
+        level: 80%
+
+      - name: MySQL & MonogoDB
+        level: 60%
+
+      - name: Router & Firewall 
+        level: 80%
+
+      - name: Network Trouble shooting
+        level: 90%
+
+      - name: Server Management
+        level: 70%
+
+      - name: Docker & KVM/QEUM
+        level: 80%
+
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
