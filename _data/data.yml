@@ -321,8 +321,11 @@ skills:
       - name: Router & Firewall 
         level: 80%
 
-      - name: Server 운용 관리
+      - name: Network 트러블슈팅
         level: 90%
+
+      - name: Server 운용 관리
+        level: 70%
 
       - name: Docker & KVM/QEUM
         level: 80%
