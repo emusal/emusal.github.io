@@ -5,7 +5,7 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Moohyoung KIM
@@ -15,9 +15,10 @@ sidebar:
     # Sidebar links
     email: emusal@gmail.com
     phone: 010-9052-1122
-    birth: 17 Febrary 1979
+    birth: 17 February 1979
     linkedin: 무형-김-a780989b
     github: emusal
+    website: emusal.github.io
 #    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
@@ -29,14 +30,14 @@ sidebar:
         - idiom: English
           level: Intermediate
 
-    interests:
-      title: Interests
-      info:
-        - item: Camping
-          link:
-
-        - item: Cocking
-          link:
+#    interests:
+#      title: Interests
+#      info:
+#        - item: Camping
+#          link:
+#
+#        - item: Cocking
+#          link:
 
 career-profile:
     title: Career Profile
@@ -87,9 +88,10 @@ experiences:
     info:
       - role: Senior Cloud Architect, Full-stack Developer
         time: 2018 - Present
-        company: KT Coperation
+        company: KT Cooperation
         details: |
           **Responsibilites**
+           - Led the design and development of the virtualization infrastructure (EdgeBox) and management platform using Linux tools and CNCF components. Engaged in full-stack development, encompassing the entire infrastructure and web UI layers.
            - Participated in the development of ‘Emergency Recovery Kit for Internet Failures’ to provide Internet/IPTV service via 5G wireless network in case of wired network failure. Responsible for developing GRE/multicast gateway device.
            - Led design and development OpenShift/OKD-based 5G Multi-access Edge Computig (MEC) system
            - Led development of 5G End-to-End Orchestrator that rapidly configures and changes network slices from the user equipment to the core. Implemented ETSI NFV standard-based interworking specification (SOL005)

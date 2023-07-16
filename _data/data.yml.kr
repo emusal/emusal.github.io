@@ -5,7 +5,7 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: 김무형
@@ -16,9 +16,9 @@ sidebar:
     email: emusal@gmail.com
     phone: 010-9052-1122
     birth: 1979년 2월 17일
-#    website: blog.webjeda.com #do not add http://
     linkedin: 무형-김-a780989b
     github: emusal
+    website: emusal.github.io
 #    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
@@ -30,14 +30,14 @@ sidebar:
         - idiom: 영어
           level: 중
 
-    interests:
-      title: 취미
-      info:
-        - item: 캠핑
-          link:
-
-        - item: 요리
-          link:
+#    interests:
+#      title: 취미
+#      info:
+#        - item: 캠핑
+#          link:
+#
+#        - item: 요리
+#          link:
 
 career-profile:
     title: 자기소개
