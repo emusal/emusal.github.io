@@ -184,7 +184,7 @@ projects:
             - WIN2, MAP, CAMEL v2/3/4 기반 이동통신 선물전화, 단문메시징 등 서비스 개발 경험
 
       - title: 캐리어급 미션 크리티컬 시스템 개발
-        tagline: 다양한 프로토콜 구현 경험, OSI 7 계층 깊은 이해, 트러블슈팅 경험
+        tagline: 공정하고 엄격한 테스트를 통과한 이동통신 솔루션 다수 개발 경험
         details: | 
           - SG 시스템 개발 및 BMT 통해 국내 외 다수 통신사에 공급 상용서비스 중 (2009)
           - DRA 시스템 개발 및 PoC/BMT 통해 인도네시아 Telkomsel(1억6천만 가입자) 통신사에 공급 (2014)
@@ -217,7 +217,7 @@ projects:
           - Lifecycle Management(서비스 생성/삭제, 성능/알람수집) REST API 연동규격 정의 및 구현
 
       - title: 서버/네트워크 인프라 운영 관리
-        tagline: 다양한 프로토콜 구현 경험, OSI 7 계층 깊은 이해, 트러블슈팅 경험
+        tagline: 다양한 타입, 제조사의 서버와 네트워크 장비 운용 경험 
         details: | 
           - (유닉스) HPUX, Solaris 기반 시스템 프로그래밍 및 운용 관리 경험
           - (리눅스) CentOS, Ubuntu 기반 시스템 프로그래밍 및 운용 관리 경험
