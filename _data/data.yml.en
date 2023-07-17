@@ -89,12 +89,12 @@ experiences:
     info:
       - role: Senior Cloud Architect, Full-stack Developer
         time: 2018 - Present
-        company: KT Cooperation
+        company: KT Corporation
         details: |
           **Responsibilites**
            - Led the design and development of the virtualization infrastructure (EdgeBox) and management platform using Linux tools and CNCF components. Engaged in full-stack development, encompassing the entire infrastructure and web UI layers.
            - Participated in the development of ‘Emergency Recovery Kit for Internet Failures’ to provide Internet/IPTV service via 5G wireless network in case of wired network failure. Responsible for developing GRE/multicast gateway device.
-           - Led design and development OpenShift/OKD-based 5G Multi-access Edge Computig (MEC) system
+           - Led design and development OpenShift/OKD-based 5G Multi-access Edge Computing (MEC) system
            - Led development of 5G End-to-End Orchestrator that rapidly configures and changes network slices from the user equipment to the core. Implemented ETSI NFV standard-based interworking specification (SOL005)
            - Training for practitioners on virtualization technology, demonstrations and technical seminars for executives/VIPs.
            - Participated in external large-scale event seminars hosted by 5G Forum, SDN/NFV Forum, Korea Telecommunications Society, etc. as a speaker on the themes of ‘KT 5G Integrated Control Technology’ and ‘KT 5G MEC Technology’
