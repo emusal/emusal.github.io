@@ -44,13 +44,20 @@ career-profile:
     title: Career Profile
     summary: |
       Hi, my name is Moohyoung Kim.<br>
-      I am an enthusiastic ICT Professional Engineer with **incredible drive** driven by a natural inclination for **continuous learning**, **genuine curiosity**, and **sincerity**. <br>
-      In my current role as a Senior Cloud Architect at KT, I am leading the development of cloud-native infrastructure/orchestration technology for the Telco Edge Cloud services.<br>
-      Throughout my career, I have had the opportunity to take on **diverse roles within the IT domain**, which has equipped me with **a wide range of skills and knowledge**. With each role, I have experienced significant personal and professional growth, constantly expanding my expertise in the field.
-        - Experience in system-level software development and operations software development for operators
+      I am an <mark>enthusiastic ICT Professional Engineer</mark> with **incredible drive** driven by a natural inclination for **continuous learning**, **genuine curiosity**, and **sincerity**. <br>
+      In my current role as a <mark>Senior Cloud Architect at KT</mark>, I am leading the development of **cloud-native infrastructure/orchestration technology for the Telco Edge Cloud services**.<br>
+      I have a **very broad set of skills** in the IT domain and have grown while **performing various roles**.
+        - Experience in system-level software development and end-user software development.
         - Skillset includes full-stack development, ranging from system programming to backend API server, front-end development, and database management.
-        - Worked as various roles, including system maintenance engineer, software developer, architect, and project leader.
+        - Worked as various roles, including system maintenance engineer, software developer, architect, and project manager.
         - Ability to carry out the entire project cycle, considering the perspectives of both service providers and consumers throught experience worked on solution vendor and telecommunication company
+
+      **Summary**
+      - <mark>QA and system enginner</mark> for SKT 2G/3G Intelligent Network service, such as Pre-paied and Free-phone (2 years)
+      - <mark>Development of telecommunication protocol stack</mark> and signaling solution (10+ years)
+      - <mark>NFV (Network Function Virtualization)</mark> migration and <mark>MANO</mark> development (3+ years)
+      - Development of the <mark>5G infrastructure end-to-end orchestrator</mark>** system for managing network slicing (2 years)
+      - Development of open <mark>source-based cloud-native infrastructure and orchestration</mark> technology (3 years)
 
       **Specialities**
       - **Cloud-native infrastructure/orchestrator** architecting and developement
@@ -60,17 +67,11 @@ career-profile:
       - **Object-oriented desing and programming**, architecting system and solutions
       - **Strong C/C++**, Python 
 
-#      **Summary**
-#      - QA and system enginner for SKT Intelligent Network service, such as Pre-paied and Free-phone (2 years)
-#      - Development of telecommunication protocol stack and signaling solution (10+ years)
-#      - NFV (Network Function Virtualization) migration and MANO development (3+ years)
-#      - Development of virtualization infrastructure integrated control system for 5G network slicing (2 years)
-#      - Development of open source-based cloud-native infrastructure and orchestration technology (3 years)
-
+#        - Experience in system-level software development and operations software development for operators
+#
 #      I am an ICT Professional Engineer with **incredible drive** based on innate **learning, curiosity** and **sincrity**.<br>
 #      Currently, as a Senior Cloud Architect at KT, 
-#      I am leading the development of cloud-native infrastructure/orchestration technology for telco edge cloud services.<br>
-#      I have a **very broad set of skills** in the IT domain and have grown while **performing various roles**.
+#      Throughout my career, I have had the opportunity to take on **diverse roles within the IT domain**, which has equipped me with **a wide range of skills and knowledge**. With each role, I have experienced significant personal and professional growth, constantly expanding my expertise in the field.
 
 
 education:
@@ -92,11 +93,11 @@ experiences:
         company: KT Corporation
         details: |
           **Responsibilites**
-           - Led the design and development of the virtualization infrastructure (EdgeBox) and management platform using Linux tools and CNCF components. Engaged in full-stack development, encompassing the entire infrastructure and web UI layers.
+           - Led the design and development of <mark>the virtualization infrastructure (EdgeBox) and management platform</mark> using Linux tools and CNCF components. Engaged in full-stack development, encompassing the entire infrastructure and web UI layers.
            - Participated in the development of ‘Emergency Recovery Kit for Internet Failures’ to provide Internet/IPTV service via 5G wireless network in case of wired network failure. Responsible for developing GRE/multicast gateway device.
-           - Led design and development OpenShift/OKD-based 5G Multi-access Edge Computing (MEC) system
-           - Led development of 5G End-to-End Orchestrator that rapidly configures and changes network slices from the user equipment to the core. Implemented ETSI NFV standard-based interworking specification (SOL005)
-           - Training for practitioners on virtualization technology, demonstrations and technical seminars for executives/VIPs.
+           - Led design and development <mark>OpenShift/OKD-based 5G Multi-access Edge Computing (MEC) system</mark>
+           - Led development of <mark>the 5G End-to-End Orchestrator</mark> that rapidly configures and changes network slices from the user equipment to the core. Implemented <mark>ETSI NFV standard-based interworking specification (SOL005)</mark>
+           - Training for practitioners on virtualization technology, and provided <mark>hands-on demonstrations and technical seminars</mark> for executives/VIPs.
            - Participated in external large-scale event seminars hosted by 5G Forum, SDN/NFV Forum, Korea Telecommunications Society, etc. as a speaker on the themes of ‘KT 5G Integrated Control Technology’ and ‘KT 5G MEC Technology’
 
           **Key archievements**
@@ -116,25 +117,25 @@ experiences:
         company: UANGEL
         details: |
           **Responsibilites**
-          - Led research/development for **<mark>Cloud-natvie migration</mark>**
-            - Designed and deveoped NFV/VNF management (VNF-M) function based on the ETSI NFV standard
-            - Designed container-based cloud-native VNF architecture and developed prototype for PoC
-            - Served as a member of the NFV Standardization Committee in the SDN/NFV Forum
-            - Established a cloud-native migration strategy for existing legacy network functions, aligning with the ETSI NFV standard
-          - **<mark>Led development of telecommunication protocol stack</mark>**
-            - Designed and implemented RFC standard SIGTRAN protocol stack like M3UA/SUA/M2PA
-            - Designed and implemented ITU-T standard SS7 protocol stack such as MTP3/SCCP/ISUP
-            - Designed and implemented 3GPP Ro (Charging interlock between AS and OCS) interface
-          - **<mark>3G/4G telco core network solution development</mark>**
-            - Designed and developed Signaling Gateway system that performs message mediation and routing between SS7 and SIGTRAN
-            - Designed and developed 3GPP PCEF (Policy and Charging Enhancement Function) system 
+          - Led research/development for <mark>Cloud-natvie migration</mark>
+            - Designed and deveoped **NFV/VNF management (VNF-M) function based on the ETSI NFV standard**
+            - Designed **container-based cloud-native VNF architecture** and developed prototype for PoC
+            - Served as **a member of the NFV Standardization Committee** in the SDN/NFV Forum
+            - Established a **cloud-native migration strategy** for existing legacy network functions, aligning with the ETSI NFV standard
+          - <mark>Led development of telecommunication protocol stack</mark>
+            - Designed and **implemented RFC standard** SIGTRAN protocol stack like M3UA/SUA/M2PA
+            - Designed and **implemented ITU-T standard** SS7 protocol stack such as MTP3/SCCP/ISUP
+            - Designed and **implemented 3GPP** Ro (Charging interlock between AS and OCS) interface
+          - <mark>3G/4G telco core network solution development</mark>
+            - Designed and **developed Signaling Gateway** system that performs message mediation and routing between SS7 and SIGTRAN
+            - Designed and **developed 3GPP PCEF** (Policy and Charging Enhancement Function) system 
             - Implemented core features, such as multi-protocol routing, message converting, policy-based routing, load balancing and overload control, used in 3GPP M2M G/W and DRA system
-          - **<mark>Common framework development</mark>**
+          - <mark>Common framework development</mark>
             - Developed own network simulator for performance testing and scenario testing of SIGTRAN protocol
             - Implemented HA (High-availability) framework for active-active servers. It performs traffic distribution between multiple servers and fail-over scenario
             - Developed SLEE (Service Logic Execution Environment) framework like a Javascript engine
-          - Responsible for writing proposals and participating in BMT/PoC for competitive bidding with global companies.
-          - Responsible for creating lecture materials and delivering lectures on standard protocols, programming, and common frameworks.
+          - Responsible for **writing proposals** and **participating in BMT/PoC** for competitive bidding with global companies.
+          - Responsible for **creating lecture materials** and delivering lectures on standard protocols, programming, and common frameworks.
 
           **Key archievements**
           - Contributed to **enhancing price and technological competitiveness** over competitors through **outstanding performance, stability, and cost reduction**. Achieved this by integrating our in-house developed SIGTRAN protocol stack into key solutions such as SCP and SMSC.
